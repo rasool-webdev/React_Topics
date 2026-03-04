@@ -1,0 +1,66 @@
+/*Book css logic starts here*/
+.book
+{
+  border: 2px solid black;
+  background-color: white;
+  color: black;
+  height: 500px;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  align-items: center;
+  padding: 5px;
+  margin: 5px;
+  background-color: blueviolet;
+}
+.book h1
+{
+  text-align: center;
+
+}
+.book button
+{
+  background-color: darkgoldenrod;
+  color: white;
+  border-radius: 10px;
+}
+
+.book button:hover{
+    background-color: green;
+    transform: scale(1.05);
+}
+/*Book css logic ends here*/
+/*Book Library css logic starts here*/
+.booklist
+{
+  display: grid;
+  grid-template-columns: repeat(4,auto);
+  gap: 10px;
+  
+}
+.btn {
+  border: 2px solid black;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+  width: fit-content;
+  height: fit-content;
+  background-color: darkmagenta;
+  padding: 10px 20px;
+  font-size: 16px;
+  position: relative;
+  top: 50%;
+  left: 100vh;
+  transform: translate(-50%, -50%);
+}
+.btn:hover{
+  background-color: darkcyan;
+}
+
+
+
+
+
+/*Book Library css logic ends here*/

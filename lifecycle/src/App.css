@@ -1,0 +1,37 @@
+.Cart{
+    display: flex;
+    flex-wrap: nowrap;
+     gap:10px;   
+     
+  }
+  .div{
+    border:  3px solid black;
+    box-shadow: 20px;
+    gap: 50px;
+    padding: 5px;
+    margin: 5px;
+    
+    align-items: center;
+    border-radius: 10px;
+    /* background-color: rgb(50,67,88); */
+    
+  }
+  img{
+    width: 350px;
+    height: 450px;
+  }
+  p{
+    color: green;
+    font-size: 30px;
+    margin-left: 30%;
+  }
+  .btn{
+    background-color: orange;
+    text-align: center;
+    margin-left: 40%;
+    width: 100px;
+    height: 50px;
+  }
+  .btn:hover{
+    background-color: green;
+  }
